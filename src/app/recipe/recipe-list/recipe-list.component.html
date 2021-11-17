@@ -1,1 +1,22 @@
-<p>recipe-list works!</p>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="mx-1 my-3">
+            <div class="row">
+                <div class="col-md-3" *ngFor="let recipe of recipes">
+                    <div class="recipe card elevated my-2">
+                        <img class="img-fluid curved" src="{{ recipe.image }}" height="270px" class="card-img-top" alt="{{ recipe.name }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ recipe.name }}</h5>
+                            <div class="p-2 overflow-auto recipe-desc">
+                                <p class="card-text">{{ recipe.description }}</p>
+                            </div>
+                            <div class="text-center mt-3">
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

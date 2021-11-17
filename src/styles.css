@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.curved {
+    border-radius: 10px;
+  }
+  
+  .elevated {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  

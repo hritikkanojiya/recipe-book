@@ -1,0 +1,8 @@
+.recipe-desc::-webkit-scrollbar{
+    display: none;
+    content: "";
+}
+
+.recipe-desc{
+    height: 180px;
+}
